@@ -1,0 +1,185 @@
+/* Dark Mode Styles */
+[data-theme="dark"] {
+  --background-color: #0f172a;
+  --surface-color: #1e293b;
+  --text-color: #f8fafc;
+  --text-secondary: #94a3b8;
+  --primary-color: #60a5fa;
+  --secondary-color: #3b82f6;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg: rgba(255, 255, 255, 0.05);
+}
+
+/* About Section Dark Mode */
+[data-theme="dark"] .about-section {
+  background-color: var(--background-color);
+}
+
+[data-theme="dark"] .about-heading,
+[data-theme="dark"] .values-heading {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .about-text {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .about-text strong {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .value-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .value-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .value-title {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .value-description {
+  color: var(--text-secondary);
+}
+
+/* Services Section Dark Mode */
+[data-theme="dark"] .services-section {
+  background-color: var(--background-color);
+}
+
+[data-theme="dark"] .services-heading {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .service-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .service-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .service-title {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .service-description {
+  color: var(--text-secondary);
+}
+
+/* Work With Us Section Dark Mode */
+[data-theme="dark"] .work-with-us {
+  background: linear-gradient(135deg, var(--background-color) 0%, var(--surface-color) 100%);
+}
+
+[data-theme="dark"] .section-description {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .btn-partner {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .btn-partner:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Featured Projects Section Dark Mode */
+[data-theme="dark"] .featured-projects {
+  background: linear-gradient(to bottom, var(--background-color), var(--surface-color));
+}
+
+[data-theme="dark"] .section-header h2 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .section-header .subtitle {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .project-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .project-title-group h3 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .project-description {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .project-metrics {
+  background: var(--surface-color);
+}
+
+[data-theme="dark"] .metric-value {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .metric-label {
+  color: var(--text-secondary);
+}
+
+/* Contact Section Dark Mode */
+[data-theme="dark"] .contact {
+  background: var(--background-color);
+}
+
+[data-theme="dark"] .contact-overlay {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.85));
+}
+
+[data-theme="dark"] .info-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .info-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .contact-form-wrapper {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group select,
+[data-theme="dark"] .form-group textarea {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .form-group input:focus,
+[data-theme="dark"] .form-group select:focus,
+[data-theme="dark"] .form-group textarea:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .form-group input::placeholder,
+[data-theme="dark"] .form-group textarea::placeholder {
+  color: var(--text-secondary);
+} 
